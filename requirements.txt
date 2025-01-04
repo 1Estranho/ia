@@ -1,2 +1,3 @@
 Flask
-langchain_ollama  # Se você estiver usando o langchain_ollama
+langchain_ollama 
+gunicorn
