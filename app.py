@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
+import os
 
 app = Flask(__name__)
 
